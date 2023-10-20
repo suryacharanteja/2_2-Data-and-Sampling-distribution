@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Central Limit Theorem</title>
+  </head>
+  <body>
+    <h1>Central Limit Theorem</h1>
+    <form method="POST">
+      <label for="sample_size">Sample Size:</label>
+      <input type="number" name="sample_size" value="{{ sample_size }}" min="1" max="100">
+      <button type="submit">Submit</button>
+    </form>
+    <img src="data:image/png;base64,{{ img_data }}" alt="Sample Means">
+  </body>
+</html>
